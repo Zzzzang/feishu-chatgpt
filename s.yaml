@@ -38,7 +38,7 @@ services:
         instanceType: e1
         memorySize: 128
         runtime: custom
-        timeout: 120
+        timeout: 500
         internetAccess: true
       triggers:
         - name: httpTrigger
